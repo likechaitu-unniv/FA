@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oxe72JWgtjeM1aBOCiLt">
+    <mxGraphModel dx="5985" dy="2355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1970" width="1910" x="-1375" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="370" width="1915" x="-1380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Infra Deployment" vertex="1">
+          <mxGeometry height="30" width="460" x="-925" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=31;" value="1. Railway App with Static IP or Pod with longer up time.&lt;div&gt;2. No DNS needed.&lt;/div&gt;&lt;div&gt;3. 4 CPU should be sufficient&lt;/div&gt;&lt;div&gt;4. Deployment zone - Mumbai&lt;/div&gt;&lt;div&gt;5. No Replica Needed&lt;/div&gt;&lt;div&gt;6. 2nd deployment - Might not be needed now&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="870" x="-885" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="NIFTY SPOT Price&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="1860" x="-1350" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;" value="Nearest Future VWAP" vertex="1">
+          <mxGeometry height="130" width="280" x="-940" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#9933FF);" value="Option Data" vertex="1">
+          <mxGeometry height="30" width="350" x="-1330" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#9933FF);" value="Indicator Data" vertex="1">
+          <mxGeometry height="30" width="350" x="-1330" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FF7A42);fontSize=21;" value="Nearest Future EMA ??" vertex="1">
+          <mxGeometry height="130" width="280" x="-650" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#9933FF);" value="AI Sentiment" vertex="1">
+          <mxGeometry height="30" width="350" x="-1330" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FF3333);fontSize=21;" value="Based on the Standard prompt Generate the sentiment from Gemini API" vertex="1">
+          <mxGeometry height="130" width="280" x="-940" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;" value="OI Resistance / OI Support" vertex="1">
+          <mxGeometry height="130" width="280" x="-340" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;" value="ATM OI CHANGE&lt;div&gt;&amp;nbsp;CALL VS PUT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="-935" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-26" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1350" y="1000" as="sourcePoint" />
+            <mxPoint x="520" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1360" y="1190" as="sourcePoint" />
+            <mxPoint x="510" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=center;" value="OI&amp;nbsp;bias:&amp;nbsp;&lt;div&gt;real PCR=0.781&lt;/div&gt;&lt;div&gt;oi_bias=BEARISH&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="280" x="-640" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1360" y="1380" as="sourcePoint" />
+            <mxPoint x="510" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#9933FF);" value="Open Range bound" vertex="1">
+          <mxGeometry height="30" width="350" x="-1330" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;" value="opening-range&lt;br/&gt;candles available" vertex="1">
+          <mxGeometry height="130" width="280" x="-940" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-32" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1360" y="1600" as="sourcePoint" />
+            <mxPoint x="510" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#9933FF);" value="VIX Data" vertex="1">
+          <mxGeometry height="30" width="350" x="-1310" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;" value="Calculations Based on VIX data" vertex="1">
+          <mxGeometry height="130" width="280" x="-940" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-35" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1340" y="1820" as="sourcePoint" />
+            <mxPoint x="530" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=center;" value="OI-wall&lt;br/&gt;proximity" vertex="1">
+          <mxGeometry height="130" width="280" x="-640" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=left;" value="&lt;div&gt;&lt;b&gt;(OI-wall base only, before other signals):&lt;/b&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;india_vix=14.06&lt;/li&gt;&lt;li&gt;expected_move=+/-186.0pts (anchored to today&#39;s open=23065.1)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(102, 102, 255));&quot;&gt;moved_from_open=+81.1pts resistance=23200.0 support=23000.0 base_upside=42%&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="400" x="-1350" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#FFFF33);" value="Probability Check" vertex="1">
+          <mxGeometry height="30" width="350" x="-1150" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=left;" value="&lt;ol&gt;&lt;li&gt;ATM&lt;br/&gt;CE premium=69.40 PE premium=115.15 (x1.15 margin) -&amp;gt; needs &amp;gt;=79.8pts up&lt;br/&gt;for CALL, &amp;gt;=132.4pts down for PUT, &amp;gt;=212.2pts either way for BOTH;&lt;br/&gt;blended expected_move=+/-186.0pts&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="280" width="400" x="-920" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-41" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-480" y="2210" as="sourcePoint" />
+            <mxPoint x="-480" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#FFFF33);" value="Momentum Check" vertex="1">
+          <mxGeometry height="30" width="350" x="-440" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=left;" value="&lt;ol&gt;&lt;li&gt;moved&lt;br/&gt;+81.1pts of +/-186.0pts expected (44% used, band 25-65%) -&amp;gt;&lt;br/&gt;momentum_bias=BULLISH&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="280" width="400" x="-450" y="1880" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-44" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1350" y="2220" as="sourcePoint" />
+            <mxPoint x="520" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#FFFF33);" value="Volatility&amp;nbsp;confidence" vertex="1">
+          <mxGeometry height="30" width="530" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-46" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10" y="2210" as="sourcePoint" />
+            <mxPoint x="-10" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#6666FF);fontSize=21;align=left;" value="&lt;ol&gt;&lt;li&gt;&amp;nbsp;43% (expected_move/avg_range=0.57x,&lt;br/&gt;orb_bias=NEUTRAL, momentum_used=0.435662697217538,&lt;br/&gt;resistance_oi_change=0.9106242613230414, support_oi_change=0.970911630841332,&lt;br/&gt;cpr_width_ratio=0.23319259168604606)&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="280" width="470" x="40" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=26;fontStyle=1;fontColor=light-dark(#000000,#FFFF33);" value="Combined Probability Check" vertex="1">
+          <mxGeometry height="30" width="505" x="-800" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-50" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="option&lt;br&gt;chain" vertex="1">
+          <mxGeometry height="80" width="215" x="-1150" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-51" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="VWAP&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="215" x="-945" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-52" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="ORB&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="200" x="-732" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-53" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="gap&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="215" x="-540" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-54" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="AI sentiment" vertex="1">
+          <mxGeometry height="80" width="200" x="-330" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-55" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="momentum&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="200" x="-140" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-56" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=24;fontColor=light-dark(#000000,#00FF00);fontStyle=1" value="ATM OI-change" vertex="1">
+          <mxGeometry height="80" width="200" x="50" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-57" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1350" y="2430" as="sourcePoint" />
+            <mxPoint x="520" y="2430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1;fontColor=light-dark(#000000,#33FF33);labelBackgroundColor=none;" value="FINAL DECISION: NO_TRADE&amp;nbsp;&lt;div&gt;(upside_probability=52% [need &amp;gt;=55% for CALL or &amp;lt;=45% for PUT],&amp;nbsp;&lt;/div&gt;&lt;div&gt;technical_bias=NEUTRAL [informational only],&amp;nbsp;&lt;/div&gt;&lt;div&gt;ai_sentiment=NEUTRAL,&lt;br&gt;momentum_bias=BULLISH,&amp;nbsp;&lt;/div&gt;&lt;div&gt;large_gap=False,&amp;nbsp;&lt;/div&gt;&lt;div&gt;range_too_tight=False,&lt;br&gt;required_move(call/put/both)=79.81/132.42249999999999/212.2325)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="1850" x="-1357.5" y="2450" as="geometry" />
+        </mxCell>
+        <mxCell id="YNfF3q3oKyZHt3rxhGgO-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#FF3333);fontSize=21;" value="PCR Calculations (+/- 5)" vertex="1">
+          <mxGeometry height="130" width="280" x="-345" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

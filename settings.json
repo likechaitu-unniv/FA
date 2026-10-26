@@ -2,7 +2,7 @@
   "execution_provider": "openalgo",
   "kite_api_key": "nbuqje0rm1t6cdpy",
   "kite_api_secret": "l84mgkd9r09a6fwt198xs1j50ji445dc",
-  "openalgo_api_key": "28b56b2f3e937fad7d13db321d1056f74314a6da35a97c8fc7990045579352bd",
+  "openalgo_api_key": "148e3b43d932858e53c10d2171034f4ff2f244f66fb692553a623ffe0d4aabe3",
   "openalgo_host": "http://127.0.0.1:5000",
   "proxy": {
     "enabled": false,
@@ -21,7 +21,7 @@
   "sl_enabled": true,
   "max_loss": 4000.0,
   "target_enabled": true,
-  "target_profit": 10000.0,
+  "target_profit": 100.0,
   "pnl_mode": "COMBINED",
   "time_exit_enabled": false,
   "time_exit": "10:30",
