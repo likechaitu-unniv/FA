@@ -32,7 +32,7 @@ from openalgo_client import OpenAlgoClient
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SETTINGS_PATH = os.path.join(BASE_DIR, "settings.json")
 LAST_ANALYSIS_PATH = os.path.join(BASE_DIR, "last_analysis_state.json")
-PORT = 5051  # deliberately different from the fixed Kite redirect port 5000
+PORT = 443  # deliberately different from the fixed Kite redirect port 5000
 
 # Editing a .py file never hot-reloads a running Python process - only a
 # full restart of `python app.py` picks up new code (unlike templates/
