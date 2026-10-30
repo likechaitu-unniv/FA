@@ -1009,4 +1009,4 @@ if __name__ == "__main__":
     else:
         print(f"[app] starting dashboard bound to {host}:{PORT} - "
               f"open http://<this-machine's-public-IP>:{PORT} from your browser")
-    socketio.run(app, host=host, port=PORT)
+    socketio.run(app, host=host, port=PORT, allow_unsafe_werkzeug=True )
