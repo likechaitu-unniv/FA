@@ -1,9 +1,9 @@
 {
   "execution_provider": "openalgo",
-  "kite_api_key": "nbuqje0rm1t6cdpy",
-  "kite_api_secret": "l84mgkd9r09a6fwt198xs1j50ji445dc",
-  "openalgo_api_key": "148e3b43d932858e53c10d2171034f4ff2f244f66fb692553a623ffe0d4aabe3",
-  "openalgo_host": "http://127.0.0.1:5000",
+  "kite_api_key": "",
+  "kite_api_secret": "",
+  "openalgo_api_key": "",
+  "openalgo_host": "",
   "proxy": {
     "enabled": false,
     "host": "123.45.67.89",
